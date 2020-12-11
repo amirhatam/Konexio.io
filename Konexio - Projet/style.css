@@ -1,0 +1,147 @@
+body {
+    font-family: "Josefin Sans";
+    margin: 0;
+}
+header {
+    background-color: rgb(85, 214, 194);
+}
+.secondary-block {
+    background-color: rgb(85, 214, 194);
+    color: white;
+}
+nav {
+    height: 65px;
+    display: flex;
+}
+.secondary-block ul {
+    display: flex;
+    width: 100%;
+    margin-left: 55%;
+    padding-top: 4px;
+    font-size: 1.2em;
+}
+.secondary-block li {
+    list-style: none;
+    margin-left: 25px;
+}
+.secondary-block a {
+    text-decoration: none;
+    color: white;
+}
+.secondary-block h1 {
+    padding: 13px 30px;
+    font-size: 2em;
+    margin: 0px;
+}
+
+div img {
+    max-width: 100%;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 68%;
+    left: 37%;
+
+}
+.hlh1 {
+    font-size: 3em;
+}
+.hlh3 {
+    font-size: 2em;
+}
+
+#propos {
+    padding: 100px;
+    height: 35pc;
+}
+.flex {
+    display: flex;
+}
+.h3-propos {
+    font-size: 1.7em;
+}
+.p-text {
+    text-align: justify;
+    width: 52pc;
+    padding-right: 100px;
+    font-size: 22px;
+}
+.propos-img img {
+    width: 25pc;
+}
+.comment {
+    padding: 90px 105px 0px;
+    font-size: larger;
+}
+.service {
+    text-align: center;
+    display: flex;
+    max-width: 53%;
+    margin-left: 24pc;
+}
+
+.box-s {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transform-origin: top left;
+    vertical-align: middle;
+}
+
+.s-info {
+    font-family: 'Josefin Sans Light';
+    font-size: 1.3em;
+}
+
+button {
+    font-family: 'Josefin Sans Light';
+    margin: 0px 0px 45px;
+    color: rgb(85, 214, 194);
+    border: 2px solid;
+    border-radius: 14px;
+    font-size: 30px;
+    background-color: white;
+    padding: 2px 12px 5px;
+}
+
+footer {
+    display: flex;
+    height: 15pc;
+}
+.address {
+    padding: 40px 120px 35px;
+}
+.contact {
+    margin-left: 35%;
+    padding: 64px 10px 10px;
+}
+form {
+    display: inline-grid;
+}
+input, label {
+    margin: 5px;
+}
+label {
+    font-size: larger;
+}
+.submit {
+    font-size: larger;
+    color: white;
+    background-color: rgb(85, 214, 194);
+    font-family: "Josefin Sans";
+    border-radius: 14px;
+    padding: 2px 12px 5px;
+    border: 2px solid
+}
+.mail {
+    font-size: large;
+}
