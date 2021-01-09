@@ -1,88 +1,117 @@
-body {
+@font-face{
     font-family: "Josefin Sans";
+    src: url('./fonts/JosefinSans-SemiBold.ttf') format('ttf');
+    src: url('./fonts/JosefinSans-Light.ttf') format('ttf');
+}
+*{
+    margin: auto;
+    font-family: "Josefin Sans";
+}
+body {
     margin: 0;
 }
-header {
-    background-color: rgb(85, 214, 194);
-}
+
 .secondary-block {
     background-color: rgb(85, 214, 194);
     color: white;
 }
-nav {
-    height: 65px;
+.div-header {
+    height: 6vmax;
     display: flex;
 }
-.secondary-block ul {
-    display: flex;
-    width: 100%;
-    margin-left: 55%;
-    padding-top: 4px;
-    font-size: 1.2em;
+
+.ul-header {
+    margin: 20px 20px 10px auto;
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+
 }
-.secondary-block li {
+.li-header {
     list-style: none;
-    margin-left: 25px;
+    border-radius: 50px;
 }
-.secondary-block a {
+.a-header {
     text-decoration: none;
     color: white;
+    font-size: 1.6vmax;
+    font-weight: bold;
+    margin: 15px;
+    display: inline-block;
 }
-.secondary-block h1 {
-    padding: 13px 30px;
-    font-size: 2em;
-    margin: 0px;
+.li-header:hover{
+    background-color: rgb(0, 204, 255);
+}
+.h1-header {
+    font-size: 2.5vmax;
+    margin: 26px 0px 5px 40px;
 }
 
-div img {
-    max-width: 100%;
+.div-accueil{
+    display: flex;
+    width: 100%;
+    height: 55vmax;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.centered {
-    color: white;
-    position: absolute;
+.p-a{
+    font-size: 3vmax;
     text-align: center;
-    top: 68%;
-    left: 37%;
-
+    font-weight: bold;
 }
-.hlh1 {
-    font-size: 3em;
-}
-.hlh3 {
-    font-size: 2em;
+.span-a{
+    font-size: 2vmax;
+    font-weight: lighter;
 }
 
 #propos {
-    padding: 100px;
-    height: 35pc;
-}
-.flex {
-    display: flex;
+    width: 100%;
+    height: 40vmax;
 }
 .h3-propos {
-    font-size: 1.7em;
+    font-size: 1.7vmax;
 }
+main {
+    width: 57%;
+    height: 25vmax;
+    float: left;
+    margin: 5% 0px 1% 7%;
+}
+aside{
+    width: 30%;
+    height: 27vmax;
+    float: right;
+    margin: 5% 0px;
+}
+
 .p-text {
     text-align: justify;
-    width: 52pc;
-    padding-right: 100px;
-    font-size: 22px;
+    font-size: 1.5vmax;
+    font-weight: lighter;
 }
-.propos-img img {
-    width: 25pc;
-}
+
 .comment {
-    padding: 90px 105px 0px;
+    padding: 7% 8% 3%;
     font-size: larger;
 }
 .service {
     text-align: center;
     display: flex;
-    max-width: 53%;
-    margin-left: 24pc;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.s-s{
+    height: 40vmax;
+}
 .box-s {
     display: inline-block;
     margin-right: 50px;
@@ -96,10 +125,16 @@ div img {
     transform-origin: top left;
     vertical-align: middle;
 }
+.box-s img{
+    max-width: 100%;
+}
 
 .s-info {
     font-family: 'Josefin Sans Light';
     font-size: 1.3em;
+}
+.margin-box {
+    margin-bottom: 7%;
 }
 
 button {
@@ -115,23 +150,29 @@ button {
 
 footer {
     display: flex;
-    height: 15pc;
+    height: 17vmax;
 }
 .address {
-    padding: 40px 120px 35px;
+    padding: 2% 8%;
+}
+.add{
+    margin: 15% 0px;
+}
+.p-add {
+    font-size: 1.3vmax;
 }
 .contact {
-    margin-left: 35%;
-    padding: 64px 10px 10px;
+    margin-left: auto;
+    padding: 5% 14%;
 }
 form {
     display: inline-grid;
 }
 input, label {
-    margin: 5px;
+    margin: 3%;
 }
 label {
-    font-size: larger;
+    font-size: 1.6vmax;
 }
 .submit {
     font-size: larger;
@@ -141,6 +182,10 @@ label {
     border-radius: 14px;
     padding: 2px 12px 5px;
     border: 2px solid
+}
+.submit:hover{
+    background-color: lightgrey;
+    cursor: pointer;
 }
 .mail {
     font-size: large;
